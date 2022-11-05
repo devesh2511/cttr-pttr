@@ -36,6 +36,7 @@ h1, .user-count {
   height: calc(100vh - 165px);
   background: white;
   padding: 5px 10px;
+  border-radius: 15px;
 }
 
 .chat p {
@@ -49,6 +50,7 @@ input, button {
   border: none;
   margin-top: 10px;
   padding: 5px 10px;
+  border-radius: 15px;
 }
 
 button:hover {
@@ -58,7 +60,7 @@ button:hover {
 
 @media all and (min-width: 500px) {
   .chat {
-    height: calc(100vh - 140px);
+    height: 60vh;
   }
   input {
     width: calc(100% - 160px);
